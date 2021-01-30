@@ -1,4 +1,4 @@
-package com.yash.algorithms;
+package com.yash.strategy.algorithms;
 
 public class FlyNoWay implements FlyBehavior{
     @Override

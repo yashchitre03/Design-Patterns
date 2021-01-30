@@ -1,4 +1,4 @@
-package com.yash.algorithms;
+package com.yash.strategy.algorithms;
 
 public class Quack implements QuackBehavior{
     @Override

@@ -1,7 +1,7 @@
-package com.yash.client;
+package com.yash.strategy.client;
 
-import com.yash.algorithms.FlyBehavior;
-import com.yash.algorithms.QuackBehavior;
+import com.yash.strategy.algorithms.FlyBehavior;
+import com.yash.strategy.algorithms.QuackBehavior;
 
 public class Duck {
     FlyBehavior fly;

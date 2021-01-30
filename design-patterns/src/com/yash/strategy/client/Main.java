@@ -1,6 +1,6 @@
-package com.yash.client;
+package com.yash.strategy.client;
 
-import com.yash.algorithms.*;
+import com.yash.strategy.algorithms.*;
 
 public class Main {
     public static void main(String[] args) {
