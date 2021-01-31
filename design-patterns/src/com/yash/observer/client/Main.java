@@ -5,7 +5,7 @@ import com.yash.observer.observer.IObserver;
 
 public class Main {
     public static void main(String[] args) {
-        IObserver observer = state -> System.out.println("I have observed a change in state!");
+        IObserver observer = state -> System.out.println("I have observed a change in state: " + state.id);
         ConcreteObservable observable = new ConcreteObservable();
         observable.register(observer);
         observable.compute();

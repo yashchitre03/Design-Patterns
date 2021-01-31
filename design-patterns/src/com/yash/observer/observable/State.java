@@ -1,6 +1,6 @@
 package com.yash.observer.observable;
 
 public class State {
-    int x = 0;
-    String id = "123";
+    public int x = 0;
+    public String id = "123";
 }
