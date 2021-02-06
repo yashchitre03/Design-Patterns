@@ -18,3 +18,15 @@ between the observable and the observers.
 without having to continuously poll from the subject.
 * This is done by passing the observer itself to the subject.
 * The subject can then call observers' methods when a change in state happens.
+
+## Decorator (aka Wrapper) pattern
+* It is a structural design pattern used to add new functionality to an object.
+* It takes an exiting object and wraps the object with new features.
+* The returned object by the wrapper is of the same type as the original object.
+* It is useful to avoid the class explosion problem.
+
+## Factory method pattern
+* It is a creational pattern used to create objects of different classes.
+* It defines an interface and lets the subclasses decide which class to instantiate.
+* The client doesn't have to worry about which class to instantiate and hence,
+promotes loose coupling.
