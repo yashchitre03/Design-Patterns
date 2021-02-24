@@ -30,3 +30,8 @@ without having to continuously poll from the subject.
 * It defines an interface and lets the subclasses decide which class to instantiate.
 * The client doesn't have to worry about which class to instantiate and hence,
 promotes loose coupling.
+  
+## Singleton pattern
+* It is a creatioanl design pattern.
+* It makes sure that only one instance of a class in created in its entire lifetime.
+* Also, the same instance is passed to everyone who requests one.
